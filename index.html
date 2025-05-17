@@ -3,19 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>core Trio Example</title>
+    <title>Semantic Layout Example</title>
     <link rel="stylesheet" href="style.css">
-    <script>
-        window.onload = function () {
-            console.log("page has loaded");
-        };
-
-        let num = prompt("enter the number");
-    </script>
 </head>
 <body>
-    <h1>hello, world!</h1>
-    <p>This is a paragraph styled with css.</p>
-    <button>click me</button>
+
+    <header>
+        <h1> My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <article>
+            <h2>Welcome to my website</h2>
+            <p>This is a simple webpage structured with semantic HTML5 elements.</p>
+            <p>The layout and styling are done using basic css techniques.</p>
+        </article>
+    </main>
+    
+    <footer> <p>&copy; 2025 my website. All  rights reserved. </p></footer>
 </body>
 </html>
